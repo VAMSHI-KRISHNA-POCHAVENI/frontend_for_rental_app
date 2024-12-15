@@ -1,0 +1,59 @@
+.gadgets {
+    padding: 60px 20px;
+    background-color: #ffffff;
+  }
+  
+  .gadgets h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #004aad;
+    margin-bottom: 40px;
+  }
+  
+  .gadget-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .gadget {
+    background-color: #f9fafb;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .gadget img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .gadget h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #004aad;
+  }
+  
+  .gadget p {
+    color: #6b7280;
+  }
+  
+  .gadget .btn {
+    background-color: #ffd700;
+    color: #004aad;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .gadget .btn:hover {
+    background-color: #f5c518;
+    transform: scale(1.05);
+  }
+  
